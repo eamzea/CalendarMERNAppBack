@@ -3,6 +3,7 @@ const express = require("express");
 const authRoutes = require("./routes/auth");
 const eventRoutes = require("./routes/events");
 const PORT = process.env.PORT;
+const path = require("path");
 const db = require("./db/config");
 const cors = require("cors");
 
