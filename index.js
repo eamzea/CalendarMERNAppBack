@@ -3,7 +3,6 @@ const express = require("express");
 const authRoutes = require("./routes/auth");
 const eventRoutes = require("./routes/events");
 const PORT = process.env.PORT;
-const path = require("path");
 const db = require("./db/config");
 const cors = require("cors");
 
@@ -17,7 +16,7 @@ db();
 app.use(cors());
 
 //APP CONFIG
-app.use(express.static("/public"));
+app.use(express.static(__dirname + "/public"));
 app.use(express.json());
 
 //ROUTES
