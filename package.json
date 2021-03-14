@@ -7,6 +7,11 @@
     "dev": "NODE_ENV=development nodemon index.js",
     "start": "node index.js"
   },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
   "keywords": [],
   "author": "Edgar Zea",
   "license": "ISC",
