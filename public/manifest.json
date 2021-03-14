@@ -1,19 +1,19 @@
 {
-  "short_name": "Calendar",
-  "name": "Calendar MERN",
+  "short_name": "Edgar Zea",
+  "name": "Edgar Zea website",
   "icons": [
     {
-      "src": "calendarLogo.ico",
+      "src": "profile_img.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "calendarLogoMiddle.png",
+      "src": "profile_img.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "calendarLogoBig.png",
+      "src": "profile_img.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490.562" height="225.104" viewBox="0 0 490.562 225.104">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-2312.438 -285.896)">
+    <text id="PROMASA" transform="translate(2405 472)" fill="#0a4f9d" font-size="33" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="0" y="0">PROMASA</tspan></text>
+    <text id="SJT_COMERCIAL_S.A._DE_C.V." data-name="SJT COMERCIAL, S.A. DE C.V." transform="translate(2454 505)" fill="#0a4f9d" font-size="23" font-family="Monaco"><tspan x="0" y="0">SJT</tspan><tspan y="0" font-family="AppleBraille, Apple Braille"> </tspan><tspan y="0">COMERCIAL,</tspan><tspan y="0" font-family="AppleBraille, Apple Braille"> </tspan><tspan y="0">S.A.</tspan><tspan y="0" font-family="AppleBraille, Apple Braille"> </tspan><tspan y="0">DE</tspan><tspan y="0" font-family="AppleBraille, Apple Braille"> </tspan><tspan y="0">C.V.</tspan></text>
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="141" height="23" transform="translate(2313 485)" fill="#0a4f9d"/>
+    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="25" height="55" transform="translate(2313 453)" fill="#0a4f9d"/>
+    <path id="Trazado_1" data-name="Trazado 1" d="M-.443-27.443,27,0V208l-26.653.071Z" transform="translate(2459.88 305.614) rotate(45)" fill="#0a4f9d"/>
+    <path id="Trazado_2" data-name="Trazado 2" d="M1.9-28.994,27.77-3.154,26.611,122.467.347,149.991Z" transform="translate(2460.922 347.572) rotate(45)" fill="#0a4f9d"/>
+    <path id="Trazado_3" data-name="Trazado 3" d="M-2.233,2.43l318.99,134.161H236.4L-2.233,38.933Z" transform="translate(2485 326)" fill="#0a4f9d"/>
+  </g>
+</svg>
