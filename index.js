@@ -16,16 +16,13 @@ db();
 app.use(cors());
 
 //APP CONFIG
-app.use(express.static(__dirname + "/public/"));
+app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 
-app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname, './index.html'), function(err) {
-    if (err) {
-      res.status(500).send(err)
-    }
-  })
-})
+app.use((req, res, next) => {
+  // If no routes match, send them the React HTML.
+  res.sendFile(__dirname + "/public/index.html");
+});
 
 //ROUTES
 app.use("/api/auth", authRoutes);
