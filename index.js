@@ -19,14 +19,14 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 
+//ROUTES
+app.use("/api/auth", authRoutes);
+app.use("/api/events", eventRoutes);
+
 app.use((req, res, next) => {
   // If no routes match, send them the React HTML.
   res.sendFile(__dirname + "/public/index.html");
 });
-
-//ROUTES
-app.use("/api/auth", authRoutes);
-app.use("/api/events", eventRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
